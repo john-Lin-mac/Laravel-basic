@@ -7,7 +7,7 @@ Instructions
 
   php composer update
 
-  mv .env.example .env
+  mv .env.example  .env
 
   vi .env
 
