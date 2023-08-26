@@ -1,28 +1,28 @@
 # laravel-basic
 Instructions
 
- git clone https://github.com/john-Lin-mac/Laravel-basic.git 
+  git clone https://github.com/john-Lin-mac/Laravel-basic.git 
 
- cd Laravel-basic
+  cd Laravel-basic
 
- php composer update
+  php composer update
 
- mv .env.example .env
+  mv .env.example .env
 
- vi .env
+  vi .env
 
    DB_DATABASE=my_datebase
    DB_PASSWORD=my_password
 
- php artisan key:generate
+  php artisan key:generate
 
- sudo chown -R daemon:daemon storage
- sudo chmod -R 775 storage
+  sudo chown -R daemon:daemon storage
+  sudo chmod -R 775 storage
 
- sudo chown -R daemon:daemon public
- sudo chmod -R 775 public
+  sudo chown -R daemon:daemon public
+  sudo chmod -R 775 public
 
- php artisan migrate
+  php artisan migrate
 
 php laravel commonly used classes: php artisan migrate completes database creation first．in app\Models\basic, they are: select SelectModel, upload UpModel, link UrlModel, file FileModel, image ImageModel in app\Http\Controller\BasicController, there are code for usage
 
