@@ -17,9 +17,11 @@ Instructions
   php artisan key:generate
 
   sudo chown -R daemon:daemon storage
+  
   sudo chmod -R 775 storage
 
   sudo chown -R daemon:daemon public
+  
   sudo chmod -R 775 public
 
   php artisan migrate
