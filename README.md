@@ -11,7 +11,7 @@ Instructions
 
   vi .env
 
-   DB_DATABASE=my_datebase
+   DB_DATABASE=my_database
    ( Create a new database with the language family utf8mb4_unicode_ci )
    
    DB_PASSWORD=my_password
