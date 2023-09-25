@@ -18,6 +18,8 @@ Instructions
 
   php artisan key:generate
 
+  sudo mkdir public/images
+
   sudo chown -R daemon:daemon storage
   
   sudo chmod -R 775 storage
